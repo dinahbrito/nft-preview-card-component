@@ -35,16 +35,22 @@ picture {
     justify-content: center;
     align-items: center;
 }
+
 /* Rounded card image */
 .card-img {
     border-radius: 10px;
     overflow: hidden;
 }
+
 /* Link Styling and Active states */
 a {
     color: hsl(0, 0%, 100%);
     text-decoration: none;
 }
+.container a:hover {
+    color: hsl(178, 100%, 50%);
+}
+
 /* Currency and Time left Section */
 .card-stats {
     display: flex;
@@ -71,4 +77,5 @@ hr {
     border-radius: 50%;
     height: 2rem;
     vertical-align: middle;
+    margin-right: 1rem;
 }
