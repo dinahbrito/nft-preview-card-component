@@ -15,6 +15,7 @@ body {
     background-color: hsl(217, 54%, 11%);
     color: hsl(215, 51%, 70%);
     font-family: 'Outfit', sans-serif;
+    font-size: 1rem;
     font-weight: 300;
 }
 /* Make images easier to work with */
@@ -34,7 +35,40 @@ picture {
     justify-content: center;
     align-items: center;
 }
+/* Rounded card image */
 .card-img {
     border-radius: 10px;
     overflow: hidden;
+}
+/* Link Styling and Active states */
+a {
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+/* Currency and Time left Section */
+.card-stats {
+    display: flex;
+    justify-content: space-between;
+}
+.card-stats img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+hr {
+    color: hsl(215, 32%, 27%);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Creator Styling */
+.creator {
+   
+}
+.creator img {
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 2rem;
+    vertical-align: middle;
 }
