@@ -58,24 +58,35 @@ a {
     color: hsl(178, 100%, 50%);
 }
 
+.info-text {
+    padding-right: 5.5rem;
+}
+
 /* Currency and Time left Section */
 .card-stats {
     display: flex;
     justify-content: space-between;
-    font-size: 1rem;
     margin: 1rem 0;
 }
-.card-stats img {
-    display: inline-block;
-    vertical-align: middle;
-}
+
 .currency {
     color:hsl(178, 100%, 50%);
 }
+
 .time-limit {
     font-weight: 400;
 }
 
+.currency, 
+.time-limit {
+    display: flex;
+    align-items: center;
+}
+
+.currency p,
+.time-limit p {
+    margin-left: 5px;
+}
 
 hr {
     color: hsl(215, 32%, 27%);
@@ -84,9 +95,7 @@ hr {
 }
 
 /* Creator Styling */
-.creator {
-   
-}
+
 .creator img {
     display: inline-block;
     border: 1px solid white;
