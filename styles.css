@@ -15,7 +15,7 @@ body {
     background-color: hsl(217, 54%, 11%);
     color: hsl(215, 51%, 70%);
     font-family: 'Outfit', sans-serif;
-    font-size: 1rem;
+    font-size: 1.1250em;
     font-weight: 300;
 }
 /* Make images easier to work with */
@@ -24,12 +24,19 @@ picture {
     max-width: 100%;
     display: block;
 }
+ 
+h1 {
+    font-weight: 600;
+    font-size: 1.5em;
+    margin: 1.5rem 0;
+}
+
 /* Container (card element) */
 .container {
     background-color: hsl(216, 50%, 16%);
     border-radius: 10px;
     overflow: hidden;
-    margin: 4rem 1.5rem;
+    margin: 3.8rem 1.5rem;
     padding: 1.5rem;
     display: grid;
     justify-content: center;
@@ -55,11 +62,20 @@ a {
 .card-stats {
     display: flex;
     justify-content: space-between;
+    font-size: 1em;
+    margin: 1em 0;
 }
 .card-stats img {
     display: inline-block;
     vertical-align: middle;
 }
+.currency {
+    color:hsl(178, 100%, 50%);
+}
+.time-limit {
+    font-weight: 400;
+}
+
 
 hr {
     color: hsl(215, 32%, 27%);
