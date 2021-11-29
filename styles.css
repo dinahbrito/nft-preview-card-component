@@ -37,7 +37,7 @@ h1 {
 }
 
 /* Container (card element) */
-.container {
+.main {
     background-color: hsl(216, 50%, 16%);
     border-radius: 8px;
     overflow: hidden;
@@ -88,7 +88,7 @@ a {
     text-decoration: none;
 }
 
-.container a:hover {
+.main a:hover {
     color: hsl(178, 100%, 50%);
 }
 
@@ -141,13 +141,14 @@ hr {
 
 /* Screens 1440px and up */
 @media only screen and (min-width: 1440px) {
-    .container {
+    .main {
         max-width: 350px;
     }
     .info-text {
         padding-right: 0;
     }
     h1 {
+        font-size: 1.375rem;
         margin-bottom: 1rem;
     }
 }
