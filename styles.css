@@ -17,6 +17,10 @@ body {
     font-family: 'Outfit', sans-serif;
     font-size: 1rem;
     font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 /* Make images easier to work with */
 img,
@@ -36,11 +40,9 @@ h1 {
     background-color: hsl(216, 50%, 16%);
     border-radius: 10px;
     overflow: hidden;
-    margin: 3.8rem 1.5rem;
     padding: 1.5rem;
-    display: grid;
-    justify-content: center;
-    align-items: center;
+    max-width: 325px;
+    
 }
 
 /* Rounded card image */
@@ -85,7 +87,7 @@ a {
 
 .currency p,
 .time-limit p {
-    margin-left: 5px;
+    margin-left: 8px;
 }
 
 hr {
@@ -103,4 +105,11 @@ hr {
     height: 2rem;
     vertical-align: middle;
     margin-right: 1rem;
+}
+
+/* Screens 1440px and up */
+@media only screen and (min-width: 1440px) {
+    .container {
+        max-width: 350px;
+    }
 }
